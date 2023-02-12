@@ -1,0 +1,28 @@
+h1, h4 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+p :hover {
+    color: green;
+}
+
+#knop {
+    color: rgb(12, 58, 58);
+    margin: 10px;
+}
+
+#voorstel {
+    border: 2px solid rgb(0, 153, 255);
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+#boven {
+    text-align: center;
+}
