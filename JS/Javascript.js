@@ -29,7 +29,7 @@ function drukknop() {
 document.querySelector ("h4")
 .innerHTML = "Wie ben ik";
 
-
+//Tekst verstoppen en tonen
 $( document).ready(function() {
 $("#verberg").click(function() {
 $(".fs-5").hide();
@@ -39,6 +39,7 @@ $(".fs-5").show();
 });
 });
 
+//achtergrond kleur van voorstel veranderen
 $(document).ready(function(){
   $("#voorstel").hover(function(){
     $(this).css("background-color", "lightblue");
