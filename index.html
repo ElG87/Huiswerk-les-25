@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap-CSS -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+        crossorigin="anonymous">
+        <!-- CSS bestand-->
+        <link rel="stylesheet" href="CSS/opmaak.css">
+        <title>Huiswerk les 25</title>
+    </head>
+    <body>
+      <header><div class="container-sm">
+        <div class="row">
+            <div class="col-sm">
+                <!-- Navigatiebalk -->
+                  <ul class="nav nav-tabs justify-content-center" id="navId" role="tablist">
+                      <li class="nav-item">
+                          <a href="#" class="nav-link" >Home</a>
+                      </li>
+                  </ul>
+            </div>
+        </div>
+      </div>
+    </header>
+      <!--Hoofdgedeelte-->
+    <main>
+      <div class="row">
+        <div class="col-12">
+            <h1>Welkom</h1>
+            <hr>
+            <p class="fs-5 col-12"> 
+              Op deze pagina laat ik zien wat ik heb geleerd van voorgaande lessen via <a id="school">NHA</a>.
+              Tot nu toe vind ik de lessen leuk en het wordt steeds uitdagender voor mij.
+              Javascript vind ik wat lastiger dan de vorige lessen, maar na het steeds te blijven herhalen, begin ik de basis wel door te krijgen.
+              Deze pagina heb ik ook zo simpel mogelijk gehouden, maar heb ik toch meerdere javascript functies en variabelen kunnen plaatsen en gebruiken.
+            </p>
+            <button id="verberg">Verberg</button>
+            <button id="toon">Toon</button>
+            <hr>
+              <div class="container col-6" id="voorstel">
+                <div class="row">
+                  <h4>Hieronder kun je zien wie ik ben..</h4>
+                </div>
+                <div class="row">
+                  <p id="text"></p>
+                  <p id="woonplaats"></p>
+                  <p id="leeftijd"></p>
+                  <input type="button" name="knop" id="knop" class="btn btn-primary" value="Wat wordt mijn volgende cijfer" onClick="drukknop()">
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+        <!--Footer-->
+        <footer>
+          <div class="container-sm">
+            <div class="row justify-content-center">
+                Copyright E. Gomes 2023
+            </div>
+            <div class="row row-cols-sm-12 justify-content-center">
+                <a id="boven" href="#">Naar boven</a>
+              </div> 
+        </div>
+        </footer>
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script src="JS/Javascript.js">
+        </script>
+        <noscript>
+          Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+    </body>
+  </html>
